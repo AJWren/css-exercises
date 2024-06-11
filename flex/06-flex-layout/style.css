@@ -3,26 +3,15 @@
 body {
   height: 100vh;
   margin: 0;
-  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  
-}
-
-
-.content{
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
   width: 600px;
-  margin: 8px;
 }
 
 button {
@@ -30,8 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
-  margin: 8px;
+  padding: 10px;
 }
 
 input {
@@ -39,51 +27,37 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin: 8px;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
-  padding: 8px;
-  
-}
-
-.footer-container{
-  display: flex;
-  flex-direction: column;
+  padding: 20px;
 }
 
 .footer{
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee;
-  padding: 8px;
+  padding: 20px;
 }
 
-.left-links, .right-links{
+.content{
   display: flex;
-  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-ul {
+ul{
+  display: flex;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
 }
 
 a:link { 
   text-decoration: none; 
-  color: black;
 } 
-a:visited { 
-  text-decoration: none;
-  color: black; 
-} 
-a:hover { 
-  text-decoration: none; 
-  color: black;
-} 
-a:active { 
-  text-decoration: none; 
-  color: black;
-}
-
